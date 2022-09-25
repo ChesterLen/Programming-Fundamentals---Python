@@ -18,3 +18,9 @@ Write a program that reads four integer numbers.
 It should add the first to the second number, integer divide the sum by the third number, and multiply the result by the fourth number. 
 Print the final result.
 
+________________________________________________________________________________________________________________________________________________________
+
+(3) Invert Values Condition:
+
+Write a program that receives a single string containing positive and negative numbers separated by a single space. 
+Print a list containing the opposite of each number.
