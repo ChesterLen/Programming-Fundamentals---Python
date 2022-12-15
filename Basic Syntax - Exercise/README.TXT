@@ -16,6 +16,6 @@ It should add the first to the second number, integer divide the sum by the thir
 
 Write a program that receives a single string containing positive and negative numbers separated by a single space. Print a list containing the opposite of each number.
 
-____________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________
 
 Conditional Statements and-Loops Exercises
