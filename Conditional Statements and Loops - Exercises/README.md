@@ -112,6 +112,15 @@
     Output: pure string is pure.;
     Output: not_pure_string is not pure!
 
+    Input: 3;
+    Input: SoftUni;
+    Input: 12345;
+    Input: string.purenes
+
+    Output: SoftUni is pure.;
+    Output: 12345 is pure.;
+    Output: string.pureness is not pure!
+
 7. Double Char
 
     You will be given strings until you receive the command "End". 
