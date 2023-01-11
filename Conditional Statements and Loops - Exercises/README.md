@@ -169,11 +169,11 @@
     Output: 3
 
     Input: movie;
-    Input: CODING;
-    Input: MOVIE;
-    Input: CLEANING;
-    Input: cat;
-    Input: END
+           CODING;
+           MOVIE;
+           CLEANING;
+           cat;
+           END
 
     Output: You need extra sleep
 
