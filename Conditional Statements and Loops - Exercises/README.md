@@ -51,6 +51,14 @@
         • less than or equal to the given bound
         • greater than 0
 
+    Examples:
+    Input: 2 | Output: 6 ;
+	   6 |
+    Input: 10 | Output: 50;
+           50 | 
+    Input: 37 | Output: 185
+           200|
+
 5. Orders
 
     You work at a coffee shop, and your job is to place orders to the distributors. Thus, you want to know the price of each order. 
