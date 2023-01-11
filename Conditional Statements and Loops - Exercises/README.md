@@ -192,6 +192,23 @@
     While receiving names, if you receive "Voldemort", print "You must not speak of that name!" and end the program. No more sorting for today!
     If all students are sorted successfully, print "Welcome to Hogwarts."
 
+    Examples:
+
+    Input: Harry;
+    Output: Harry goes to Slytherin.|
+
+    Input: Ron;
+    Output: Ron goes to Gryffindor.|
+
+    Input: Ginny;
+    Output: Ginny goes to Slytherin.|
+
+    Input: Draco;
+    Output: Draco goes to Slytherin.|
+
+    Input: Welcome!;
+    Output: Welcome to Hogwarts.
+
 10. Mutate Strings
 
 You will be given two strings. Transform the first string into the second one, letter by letter, starting from the first one. After each interaction, print the resulting string only if it is unique.
