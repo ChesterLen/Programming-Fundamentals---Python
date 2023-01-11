@@ -52,12 +52,9 @@
         • greater than 0
 
     Examples:
-    Input: 2 | Output: 6 ;
-	   6 |
-    Input: 10 | Output: 50;
-           50 | 
-    Input: 37 | Output: 185
-           200|
+    Input: 2, Input: 7 | Output: 6 ;
+    Input: 10, Input: 50 | Output: 50 ;
+    Input: 37, Input: 200 | Output: 185 ;
 
 5. Orders
 
