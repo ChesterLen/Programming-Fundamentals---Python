@@ -86,6 +86,14 @@
         • If a string is pure, print "{string} is pure."
         • Otherwise, print "{string} is not pure!"
 
+    Examples:
+    Input: 2;
+    Input: pure string;
+    Input: not_pure_string
+
+    Output: pure string is pure.;
+    Output: not_pure_string is not pure!
+
 7. Double Char
 
     You will be given strings until you receive the command "End". 
