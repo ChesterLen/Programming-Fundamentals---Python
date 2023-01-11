@@ -127,6 +127,23 @@
     For each string given, you should print a string in which each character (case-sensitive) is repeated twice. 
     Note that if you receive the string "SoftUni", you should NOT print it!
 
+    Examples:
+
+    Input: Hello World;
+    Input: Repeat;
+    Input: End
+
+    Output: HHeelllloo  WWoorrlldd;
+    Output: RReeppeeaatt
+
+    Input: 1234!;
+    Input: SoftUni;
+    Input: softuni;
+    Input: End;
+
+    Output: 11223344!!;
+    Output: ssooffttuunnii
+
 8. How Much Coffee Do You Need?
 
     Everybody knows that you spend too much time awake during nighttime.
