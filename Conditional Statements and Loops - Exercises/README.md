@@ -21,6 +21,12 @@
     An adult is defined as someone above the age of 21.
     Note: All the values are inclusive except the last one!
 
+    Examples:
+    Input: 13 | Output: drink toddy
+    Input: 17 | Output: drink coke
+    Input: 21 | Output: drink beer
+    Input: 30 | Output: drink whisky
+
 3. Chat Codes
 
     Peter is a programming enthusiast who wants to create a chat where people will send messages via number codes. He starts by creating a program for only four messages. 
