@@ -5,8 +5,8 @@
     However, Jenny is in love with Johnny and would like to greet him differently: "Hello, my love!". Could you help her?
     
     Examples:
-    Input: Peter | Output: Hello, Peter!,
-    Input: Amy | Output: Hello, Amy!,
+    Input: Peter | Output: Hello, Peter!;
+    Input: Amy | Output: Hello, Amy!;
     Input: Johny | Output: Hello, my love!
 
 2. Drink Something
@@ -22,9 +22,9 @@
     Note: All the values are inclusive except the last one!
 
     Examples:
-    Input: 13 | Output: drink toddy,
-    Input: 17 | Output: drink coke,
-    Input: 21 | Output: drink beer,
+    Input: 13 | Output: drink toddy;
+    Input: 17 | Output: drink coke;
+    Input: 21 | Output: drink beer;
     Input: 30 | Output: drink whisky
 
 3. Chat Codes
