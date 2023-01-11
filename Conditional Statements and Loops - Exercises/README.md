@@ -23,6 +23,7 @@
     Note: All the values are inclusive except the last one!
 
     Examples:
+
     Input: 13 | Output: drink toddy ;
     Input: 17 | Output: drink coke ;
     Input: 21 | Output: drink beer ;
