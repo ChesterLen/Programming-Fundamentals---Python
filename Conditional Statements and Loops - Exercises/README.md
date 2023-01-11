@@ -179,18 +179,18 @@ In the end, print the number of coffees you will need. If the count has exceeded
 
 9. Sorting Hat
 
-    Help out the sorting hat to sort the new students in the houses of Hogwarts. You will be receiving names until the command "Welcome!". 
-    The length of each name determines in which house the student is going:
-        • If the name is less than 5 chars, the student is going into Gryffindor
-            ◦ Print "{name} goes to Gryffindor."
-        • If the name is exactly 5 chars, the student is going into Slytherin
-            ◦ Print "{name} goes to Slytherin."
-        • If the name is exactly 6 chars, the student is going into Ravenclaw
-            ◦ Print "{name} goes to Ravenclaw."
-        • If the name is more than 6 chars, the student is going into Hufflepuff
-            ◦ Print "{name} goes to Hufflepuff."
-    While receiving names, if you receive "Voldemort", print "You must not speak of that name!" and end the program. No more sorting for today!
-    If all students are sorted successfully, print "Welcome to Hogwarts."
+Help out the sorting hat to sort the new students in the houses of Hogwarts. You will be receiving names until the command "Welcome!". 
+The length of each name determines in which house the student is going:
+    • If the name is less than 5 chars, the student is going into Gryffindor
+        ◦ Print "{name} goes to Gryffindor."
+    • If the name is exactly 5 chars, the student is going into Slytherin
+        ◦ Print "{name} goes to Slytherin."
+    • If the name is exactly 6 chars, the student is going into Ravenclaw
+        ◦ Print "{name} goes to Ravenclaw."
+    • If the name is more than 6 chars, the student is going into Hufflepuff
+        ◦ Print "{name} goes to Hufflepuff."
+While receiving names, if you receive "Voldemort", print "You must not speak of that name!" and end the program. No more sorting for today!
+If all students are sorted successfully, print "Welcome to Hogwarts."
 
     Examples:
 
@@ -226,53 +226,53 @@ Note: the strings will have the same length.
 
 11. Easter Bread
 
-    Since it is Easter, you have decided to make some loaves of Easter bread and exchange them for eggs.
-    Create a program that calculates how many loaves you can make (according to the recipe) with the budget you have.
-    Here is the recipe for one loaf:
-    Eggs: 1 pack
-    Flour: 1 kg
-    Milk: 0.250 l
-    First, you will receive your budget. Then, you will receive the price for 1 kg flour. The price for 1 pack of eggs is 75% of the price for 1 kg flour. 
-    The price for 1L milk is 25% more than the price for 1 kg flour. Keep in mind that you use only 250ml milk for a bread.
-    Start cooking the loaves and keep making them until you have enough budget. Keep in mind that:
-        • For every loaf of bread that you make, you will receive 3 colored eggs. 
-        • For every 3rd bread you make, you will lose some of your colored eggs after receiving the usual 3 colored eggs for your bread. 
-    The count of eggs you will lose is calculated when you subtract 2 from your current count of loaves - ({current_bread_count} - 2)
-    In the end, print the loaves of bread you made, the eggs you have collected, and the money you have left, formatted to the 2nd decimal place, in the following format:
-    "You made {number_of_loaves} loaves of Easter bread! Now you have {colored_eggs} eggs and {money_left}BGN left."
+Since it is Easter, you have decided to make some loaves of Easter bread and exchange them for eggs.
+Create a program that calculates how many loaves you can make (according to the recipe) with the budget you have.
+Here is the recipe for one loaf:
+Eggs: 1 pack
+Flour: 1 kg
+Milk: 0.250 l
+First, you will receive your budget. Then, you will receive the price for 1 kg flour. The price for 1 pack of eggs is 75% of the price for 1 kg flour. 
+The price for 1L milk is 25% more than the price for 1 kg flour. Keep in mind that you use only 250ml milk for a bread.
+Start cooking the loaves and keep making them until you have enough budget. Keep in mind that:
+    • For every loaf of bread that you make, you will receive 3 colored eggs. 
+    • For every 3rd bread you make, you will lose some of your colored eggs after receiving the usual 3 colored eggs for your bread. 
+The count of eggs you will lose is calculated when you subtract 2 from your current count of loaves - ({current_bread_count} - 2)
+In the end, print the loaves of bread you made, the eggs you have collected, and the money you have left, formatted to the 2nd decimal place, in the following format:
+"You made {number_of_loaves} loaves of Easter bread! Now you have {colored_eggs} eggs and {money_left}BGN left."
 
 12. Christmas Spirit
 
-    It is time to get in a Christmas mood. You need to decorate the house in time for the big event, but you have limited days to do so.
-    Write a program that calculates how much money you will need to spend on Christmas decorations and how much your Christmas spirit will improve.
-    On the first line, you will receive the quantity of decorations you should buy each time you go shopping. 
-    On the second line, you will receive the days left until Christmas. 
-    There are 4 types of decorations, and each piece costs a certain price. Also, each time you go shopping for a concrete type of decoration, your Christmas spirit is improved by some points:
+It is time to get in a Christmas mood. You need to decorate the house in time for the big event, but you have limited days to do so.
+Write a program that calculates how much money you will need to spend on Christmas decorations and how much your Christmas spirit will improve.
+On the first line, you will receive the quantity of decorations you should buy each time you go shopping. 
+On the second line, you will receive the days left until Christmas. 
+There are 4 types of decorations, and each piece costs a certain price. Also, each time you go shopping for a concrete type of decoration, your Christmas spirit is improved by some points:
     
-    Decoration: Ornament Set
-    Price/Piece: 2$
-    Points/Shopping: 5
+Decoration: Ornament Set
+Price/Piece: 2$
+Points/Shopping: 5
     
-    Decoration: Tree Skirt
-    Price/Piece: 5$
-    Points/Shopping: 3
+Decoration: Tree Skirt
+Price/Piece: 5$
+Points/Shopping: 3
     
-    Decoration: Tree Garland
-    Price/Piece: 3$
-    Points/Shopping: 10
+Decoration: Tree Garland
+Price/Piece: 3$
+Points/Shopping: 10
     
-    Decoration: Tree Lights
-    Price/Piece: 15$
-    Points/Shopping: 17
+Decoration: Tree Lights
+Price/Piece: 15$
+Points/Shopping: 17
     
-    Until Christmas, you go shopping for a certain decoration as follows:
-        • Every second day you buy Ornament Sets.
-        • Every third day you buy Tree Skirts and Tree Garlands.
-        • Every fifth day you buy Tree Lights. 
-            ◦ If you have bought Tree Skirts and Tree Garlands on the same day, you additionally increase your spirit by 30.
-    That's not all! You have a cat at home that really likes to mess around with the decoration:
-        • Every tenth day your cat ruins all tree decorations, and you lose 20 points of the spirit:
-            ◦ Because of that, you go shopping (for a second time during the day) to buy one piece of tree skirt, garlands, and lights, but you do NOT earn additional spirit points for them.
-        • Also, because of the cat - at the beginning of every eleventh day, you are forced to increase the quantity of decorations needed to be bought each time you go shopping by 2.
-        • If the last day is a tenth day, the cat demolishes even more and ruins the Christmas turkey, and you lose an additional 30 points of spirit.
-    In the end, you must print the total cost and the gained spirit.
+Until Christmas, you go shopping for a certain decoration as follows:
+    • Every second day you buy Ornament Sets.
+    • Every third day you buy Tree Skirts and Tree Garlands.
+    • Every fifth day you buy Tree Lights. 
+        ◦ If you have bought Tree Skirts and Tree Garlands on the same day, you additionally increase your spirit by 30.
+That's not all! You have a cat at home that really likes to mess around with the decoration:
+    • Every tenth day your cat ruins all tree decorations, and you lose 20 points of the spirit:
+        ◦ Because of that, you go shopping (for a second time during the day) to buy one piece of tree skirt, garlands, and lights, but you do NOT earn additional spirit points for them.
+    • Also, because of the cat - at the beginning of every eleventh day, you are forced to increase the quantity of decorations needed to be bought each time you go shopping by 2.
+    • If the last day is a tenth day, the cat demolishes even more and ruins the Christmas turkey, and you lose an additional 30 points of spirit.
+In the end, you must print the total cost and the gained spirit.
