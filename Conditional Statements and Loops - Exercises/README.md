@@ -5,6 +5,7 @@
     However, Jenny is in love with Johnny and would like to greet him differently: "Hello, my love!". Could you help her?
     
     Examples:
+
     Input: Peter | Output: Hello, Peter! ;
     Input: Amy | Output: Hello, Amy! ;
     Input: Johny | Output: Hello, my love!
