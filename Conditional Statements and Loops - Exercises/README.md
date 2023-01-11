@@ -36,6 +36,13 @@
         • If the number is not 88 nor 86, and it is below 88 - "GREAT!"
         • If the number is over 88 - "Bye."
 
+    Examples:
+    int(input): 4
+    Input: 88 | Output: Hello ;
+    Input: 86 | Output: How are you? ;
+    Input: 2 | Output: GREAT! ;
+    Input: 105 | Output: Bye.
+
 4. Maximum Multiple
 
     On the first line, you will be given a positive number, which will serve as a divisor. On the second line, you will receive a positive number that will be the boundary. 
