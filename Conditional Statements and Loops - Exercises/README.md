@@ -162,17 +162,17 @@
     Examples:
     
     Input: dog;
-    Input: CAT;
-    Input: gaming;
+    Input: CAT
+    Input: gaming
     Input: END
 
     Output: 3
 
     Input: movie;
-           CODING;
-           MOVIE;
-           CLEANING;
-           cat;
+           CODING
+           MOVIE
+           CLEANING
+           cat
            END
 
     Output: You need extra sleep
