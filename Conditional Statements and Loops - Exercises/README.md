@@ -241,6 +241,18 @@ The count of eggs you will lose is calculated when you subtract 2 from your curr
 In the end, print the loaves of bread you made, the eggs you have collected, and the money you have left, formatted to the 2nd decimal place, in the following format:
 "You made {number_of_loaves} loaves of Easter bread! Now you have {colored_eggs} eggs and {money_left}BGN left."
 
+    Examples:
+
+    input: 20.50
+           1.25
+
+    Output: You made 7 loaves of Easter bread! Now you have 16 eggs and 2.45BGN left.
+
+    Input: 15.75
+           1.4
+
+    Output: You made 5 loaves of Easter bread! Now you have 14 eggs and 1.31BGN left.
+
 12. Christmas Spirit
 
 It is time to get in a Christmas mood. You need to decorate the house in time for the big event, but you have limited days to do so.
