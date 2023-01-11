@@ -84,6 +84,18 @@
     Output: The price for the coffee is: $367.20;
     Output: Total: $367.20
 
+    Input: 2;
+    Input: 4.99;
+    Input: 31;
+    Input: 3;
+    Input: 0.35;
+    Input: 31;
+    Input: 5
+
+    Output: The price for the coffee is: $464.07;
+    Output: The price for the coffee is: $54.25;
+    Output: Total: $518.32
+
 6. String Pureness
 
     You will be given number n. After that, you'll receive different strings n times. 
