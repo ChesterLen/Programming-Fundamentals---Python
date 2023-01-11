@@ -288,3 +288,17 @@ That's not all! You have a cat at home that really likes to mess around with the
     • Also, because of the cat - at the beginning of every eleventh day, you are forced to increase the quantity of decorations needed to be bought each time you go shopping by 2.
     • If the last day is a tenth day, the cat demolishes even more and ruins the Christmas turkey, and you lose an additional 30 points of spirit.
 In the end, you must print the total cost and the gained spirit.
+
+    Examples:
+    
+    Input: 1
+           7
+
+    Output: Total cost: 37
+            Total spirit: 58
+
+    Input: 3
+           20
+
+    Output: Total cost: 558
+            Total spirit: 156
