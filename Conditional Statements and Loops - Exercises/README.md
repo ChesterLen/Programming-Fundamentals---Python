@@ -194,19 +194,19 @@
 
     Examples:
 
-    Input: Harry;
-    Output: Harry goes to Slytherin.|
+    Input: Harry|
+    Output: Harry goes to Slytherin.;
 
-    Input: Ron;
-    Output: Ron goes to Gryffindor.|
+    Input: Ron|
+    Output: Ron goes to Gryffindor.;
 
-    Input: Ginny;
-    Output: Ginny goes to Slytherin.|
+    Input: Ginny|
+    Output: Ginny goes to Slytherin.;
 
-    Input: Draco;
-    Output: Draco goes to Slytherin.|
+    Input: Draco|
+    Output: Draco goes to Slytherin.;
 
-    Input: Welcome!;
+    Input: Welcome!|
     Output: Welcome to Hogwarts.
 
 10. Mutate Strings
