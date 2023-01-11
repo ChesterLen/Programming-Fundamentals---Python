@@ -159,6 +159,24 @@
         • If it is uppercase, you need 2 coffees by an event.
     In the end, print the number of coffees you will need. If the count has exceeded 5, just print "You need extra sleep".
 
+    Examples:
+    
+    Input: dog;
+    Input: CAT;
+    Input: gaming;
+    Input: END
+
+    Output: 3
+
+    Input: movie;
+    Input: CODING;
+    Input: MOVIE;
+    Input: CLEANING;
+    Input: cat;
+    Input: END
+
+    Output: You need extra sleep
+
 9. Sorting Hat
 
     Help out the sorting hat to sort the new students in the houses of Hogwarts. You will be receiving names until the command "Welcome!". 
