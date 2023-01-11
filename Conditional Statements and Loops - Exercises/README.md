@@ -217,9 +217,12 @@ Note: the strings will have the same length.
     Examples:
 
     Input: bubble gum;
-    Input: turtle hum
+           turtle hum
 
-    Output: tubble gum turble gum turtle gum turtle hum
+    Output: tubble gum 
+            turble gum 
+            turtle gum 
+            turtle hum
 
 11. Easter Bread
 
