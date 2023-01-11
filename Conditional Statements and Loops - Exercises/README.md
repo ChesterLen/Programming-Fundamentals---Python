@@ -70,6 +70,15 @@
         •  "Total: ${total_price}"
     Both the price of a coffee and the total price must be formatted to the second decimal place.
 
+    Examples:
+    Input: 1;
+    Input: 1.53;
+    Input: 30;
+    Input; 8
+
+    Output: The price for the coffee is: $367.20;
+    Output: Total: $367.20
+
 6. String Pureness
 
     You will be given number n. After that, you'll receive different strings n times. 
