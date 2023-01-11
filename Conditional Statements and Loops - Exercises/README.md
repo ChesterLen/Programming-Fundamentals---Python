@@ -39,6 +39,7 @@
         • If the number is over 88 - "Bye."
 
     Examples:
+
     int(input): 4
     Input: 88 | Output: Hello ;
     Input: 86 | Output: How are you? ;
@@ -54,6 +55,7 @@
         • greater than 0
 
     Examples:
+
     Input: 2, Input: 7 | Output: 6 ;
     Input: 10, Input: 50 | Output: 50 ;
     Input: 37, Input: 200 | Output: 185 ;
@@ -73,6 +75,7 @@
     Both the price of a coffee and the total price must be formatted to the second decimal place.
 
     Examples:
+
     Input: 1;
     Input: 1.53;
     Input: 30;
@@ -89,6 +92,7 @@
         • Otherwise, print "{string} is not pure!"
 
     Examples:
+
     Input: 2;
     Input: pure string;
     Input: not_pure_string
