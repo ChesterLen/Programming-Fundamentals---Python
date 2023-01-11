@@ -4,6 +4,11 @@ Jenny studies programming with Python and wants to create a program that greets 
 The greeting should be in the format "Hello, {name}!". 
 However, Jenny is in love with Johnny and would like to greet him differently: "Hello, my love!". Could you help her?
 
+Examples:
+Input: Peter | Output: Hello, Peter!
+Input: Amy | Output: Hello, Amy!
+Input: Johny | Output: Hello, my love!
+
 2. Drink Something
 
 Kids drink toddy, teens drink coke, young adults drink beer, and adults drink whisky. 
