@@ -161,14 +161,14 @@
 
     Examples:
     
-    Input: dog;
-    Input: CAT
-    Input: gaming
-    Input: END
+    Input: dog
+           CAT
+           gaming
+           END
 
     Output: 3
 
-    Input: movie;
+    Input: movie
            CODING
            MOVIE
            CLEANING
@@ -216,7 +216,7 @@ Note: the strings will have the same length.
 
     Examples:
 
-    Input: bubble gum;
+    Input: bubble gum
            turtle hum
 
     Output: tubble gum 
