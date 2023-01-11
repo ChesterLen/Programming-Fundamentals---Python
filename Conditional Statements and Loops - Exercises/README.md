@@ -214,6 +214,13 @@
 You will be given two strings. Transform the first string into the second one, letter by letter, starting from the first one. After each interaction, print the resulting string only if it is unique.
 Note: the strings will have the same length.
 
+    Examples:
+
+    Input: bubble gum;
+    Input: turtle hum
+
+    Output: tubble gum turble gum turtle gum turtle hum
+
 11. Easter Bread
 
     Since it is Easter, you have decided to make some loaves of Easter bread and exchange them for eggs.
