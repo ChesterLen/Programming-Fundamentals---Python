@@ -87,6 +87,22 @@ fragments: {number_of_fragments}
 motes: {number_of_motes}"
 Finally, print the collected junk items in the order of appearance.
 
+    Examples:
+
+    Input: 3 Motes 5 stones 5 Shards 6              Output: Valanyr obtained!
+           leathers 255 fragments 7 Shards                  shards: 5
+                                                            fragments: 5
+                                                            motes: 3
+                                                            stones: 5
+                                                            leathers: 6
+
+    Input: 123 silver 6 shards 8 shards 5 motes     Output: Dragonwrath obtained!
+           9 fangs 75 motes 103 MOTES 8 Shards              shards: 22
+           86 Motes 7 stones 19 silver                      fragments: 0
+                                                            motes: 19
+                                                            silver: 123
+                                                            fangs: 9
+
 6. Orders
 Write a program that keeps the information about products and their prices. Each product has a name, a price, and a quantity:
     • If the product doesn't exist yet, add it with its starting quantity.
