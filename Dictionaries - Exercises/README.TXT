@@ -160,6 +160,33 @@ Input
         ◦ Register: "register {username} {license_plate_number}"
         ◦ Unregister: "unregister {username}"
 
+    Examples:
+
+    Input: 5                             Output: John registered CS1234JS successfully
+           register John CS1234JS                George registered JAVA123S successfully
+           register George JAVA123S              Andy registered AB4142CD successfully
+           register Andy AB4142CD                Jesica registered VR1223EE successfully
+           register Jesica VR1223EE              Andy unregistered successfully
+           unregister Andy                       John => CS1234JS
+                                                 George => JAVA123S
+                                                 Jesica => VR1223EE
+
+    Input: 4                             Output: Jony registered AA4132BB successfully
+           register Jony AA4132BB                ERROR: already registered with plate number AA4132BB
+           register Jony AA4132BB                Linda registered AA9999BB successfully
+           register Linda AA9999BB               Jony unregistered successfully
+           unregister Jony                       Linda => AA9999BB
+
+    Input: 6                             Output: Jacob registered MM1111XX successfully
+           register Jacob MM1111XX               Anthony registered AB1111XX successfully
+           register Anthony AB1111XX             Jacob unregistered successfully
+           unregister Jacob                      Joshua registered DD1111XX successfully
+           register Joshua DD1111XX              ERROR: user Lily not found
+           unregister Lily                       Samantha registered AA9999BB successfully
+           register Samantha AA9999BB            Anthony => AB1111XX
+                                                 Joshua => DD1111XX
+                                                 Samantha => AA9999BB
+
 8. Courses
 Write a program that keeps the information about courses. Each course has a name and registered students.
 You will be receiving a course name and a student name until you receive the command "end".
