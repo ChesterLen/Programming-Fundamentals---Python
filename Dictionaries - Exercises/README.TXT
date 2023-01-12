@@ -335,3 +335,20 @@ After that, print each language used in the exam in the following format:
 {language2} - {submissions_count}
 …
 {language3} - {submissions_count}"
+
+    Examples:
+
+    Input: Peter-Java-84    Output: Results:
+           George-C#-84             Peter | 84
+           George-C#-70             George | 84
+           Katy-C#-94               Katy | 94
+           exam finished            Submissions:
+                                    Java - 1
+                                    C# - 3
+
+    Input: Peter-Java-91    Output: Results:
+           George-C#-84             Peter | 91
+           Katy-Java-90             George | 84
+           Katy-C#-50               Submissions:
+           Katy-banned              Java - 2
+           exam finished            C# - 2
