@@ -3,6 +3,14 @@ Write a program that counts all characters in a string except for space (" ").
 Print all the occurrences in the following format:
 "{char} -> {occurrences}"
 
+    Examples:
+
+    Input: text
+
+    Output: t -> 2
+            e -> 1
+            x -> 1
+
     2. A Miner Task
 You will be given a sequence of strings, each on a new line until you receive the "stop" command. Every odd line on the console represents a resource (e.g., Gold, Silver, Copper, and so on) and every even - quantity. Your task is to collect the resources and print them each on a new line.
 Print the resources and their quantities in the following format:
