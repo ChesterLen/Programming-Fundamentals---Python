@@ -202,6 +202,25 @@ Output
     • Print the information about each student in the following format:
 "-- {student_name}"
 
+    Examples:
+    Input: Programming Fundamentals : John Smith           Output: Programming Fundamentals: 2
+           Programming Fundamentals : Linda Johnson                -- John Smith
+           JS Core : Will Wilson                                   -- Linda Johnson
+           Java Advanced : Harrison White                          JS Core: 1
+           end                                                     -- Will Wilson
+                                                                   Java Advanced: 1
+                                                                   -- Harrison White
+
+    Input: Algorithms : Jay Moore                          Output: Algorithms: 2
+           Programming Basics : Martin Taylor                      -- Jay Moore
+           Python Fundamentals : John Anderson                     -- Bob Jackson
+           Python Fundamentals : Andrew Robinson                   Programming Basics: 1
+           Algorithms : Bob Jackson                                -- Martin Taylor
+           Python Fundamentals : Clark Lewis                       Python Fundamentals: 3
+           end                                                     -- John Anderson
+                                                                   -- Andrew Robinson
+                                                                   -- Clark Lewis
+
 9.  Student Academy
 Write a program that keeps the information about students and their grades.
 On the first line, you will receive an integer number representing the next pair of rows. On the next lines, you will be receiving each student's name and their grade.
