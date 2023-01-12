@@ -303,6 +303,20 @@ If you receive a "force_user -> force_side":
 You should end your program when you receive the command "Lumpawaroo". At that point, you should print each force side. For each side, print the force users.
 In case there are no force users on a side, you shouldn't print the side information.
 
+    Examples:
+
+    Input: Light | Peter              Output: Side: Light, Members: 1
+           Dark | Kim                               ! Peter
+           Light | Kim                              Side: Dark, Members: 1
+           Lumpawaroo                               ! Kim
+
+    Input: Lighter | Royal            Output: Ivan Ivanov joins the Lighter side!
+           Darker | DCay                      DCay joins the Lighter side!
+           Ivan Ivanov -> Lighter             Side: Lighter, Members: 3
+           DCay -> Lighter                    ! Royal
+           Lumpawaroo                         ! Ivan Ivanov
+                                              ! DCay
+
 12. SoftUni Exam Results
 Judge statistics on the last Programing Fundamentals exam were not working correctly, so you have the task of taking all the submissions and analyzing them properly.
 You should collect all the submissions and print the final results and statistics about each language in which the participants submitted their solutions.
