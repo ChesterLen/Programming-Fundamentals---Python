@@ -229,6 +229,32 @@ Print the final dictionary with students and their average grade in the followin
 "{name} -> {averageGrade}"
 Format the average grade to the 2nd decimal place.
 
+    Examples:
+
+    Input: 5          Output: John -> 5.00
+           John               Alice -> 4.50
+           5.5                George -> 5.00
+           John
+           4.5
+           Alice
+           6
+           Alice
+           3
+           George
+           5
+
+    Input: 5          Output: Rob -> 5.50
+           Amanda             Christian -> 5.00
+           3.5                Robert -> 6.00
+           Amanda
+           4
+           Rob
+           5.5
+           Christian
+           5
+           Robert
+           6
+
 10. Company Users
 Write a program that keeps the information about companies and their employees.
 You will be receiving company names and an employees' id until you receive the command "End" command. Add each employee to the given company. Keep in mind that a company cannot have two employees with the same id.
