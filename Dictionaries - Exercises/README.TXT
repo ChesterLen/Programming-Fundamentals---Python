@@ -5,11 +5,9 @@ Print all the occurrences in the following format:
 
     Examples:
 
-    Input: text
-
-    Output: t -> 2
-            e -> 1
-            x -> 1
+    Input: text   Output: t -> 2
+                          e -> 1
+                          x -> 1
 
 2. A Miner Task
 You will be given a sequence of strings, each on a new line until you receive the "stop" command. Every odd line on the console represents a resource (e.g., Gold, Silver, Copper, and so on) and every even - quantity. Your task is to collect the resources and print them each on a new line.
@@ -18,19 +16,23 @@ Print the resources and their quantities in the following format:
 
     Examples:
     
-    Input: Gold               Input: gold
-           155                       155
-           Silver                    silver 
-           10                        10
-           Copper                    copper  
-           17                        17
-           stop                      gold   
-                                     15
-    Output: Gold -> 155              stop
-            Silver -> 10
-            Copper -> 17      Output: gold -> 170
-                                      silver -> 10
-                                      copper -> 17
+    Input: Gold       Output: Gold -> 155
+           155                Silver -> 10
+           Silver             Copper -> 17
+           10
+           Copper
+           17
+           stop
+
+    Input: gold       Output: gold -> 170
+           155                silver -> 10
+           silver             copper -> 17
+           10
+           copper
+           17
+           gold
+           15
+           stop           
 
 3. Capitals
 Using a dictionary comprehension, write a program that receives country names on the first line, separated by comma and space ", ", and their corresponding capital cities on the second line (again separated by comma and space ", ").
