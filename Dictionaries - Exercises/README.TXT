@@ -55,6 +55,23 @@ Each entry should have a name and a number (both strings) separated by a "-". If
 After filling the phonebook, you will receive a number – N. Your program should be able to perform a search of contact by name and print its details in the format: "{name} -> {number}".
 In case the contact isn't found, print: "Contact {name} does not exist."
 
+    Examples:
+
+    Input: Adam-0888080808            Output: Contact Mery does not exist.
+           2                                  Adam -> 0888080808
+           Mery
+           Adam
+
+    Input: Adam-+359888001122         Output: Silvester -> 02/98766554
+           Ralf-666                           Contact silvester does not exist.
+           George-5559393                     Contact Rolf does not exist.
+           Silvester-02/987665544             Ralf -> 666
+           4
+           Silvester
+           silvester
+           Rolf
+           Ralf
+
 5. Legendary Farming
 You are playing a game, and your goal is to win a legendary item - any legendary item will be good enough. However, it's a tedious process, and it requires quite a bit of farming. The possible items are:
     • "Shadowmourne" - requires 250 Shards
