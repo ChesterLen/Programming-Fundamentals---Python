@@ -267,6 +267,7 @@ Print the company name and each employee's id in the following format:
 -- {idN}"
 
     Examples:
+
     Input: SoftUni -> AA12345       Output: SoftUni
            SoftUni -> BB12345               -- AA12345
            Microsoft -> CC12345             -- BB12345
