@@ -36,6 +36,17 @@ Print the resources and their quantities in the following format:
 Using a dictionary comprehension, write a program that receives country names on the first line, separated by comma and space ", ", and their corresponding capital cities on the second line (again separated by comma and space ", ").
 Print each country with their capital on a separate line in the following format: "{country} -> {capital}".
 
+    Examples:
+
+    Input: Bulgaria, Romania, Germany, England    Output: Bulgaria -> Sofia
+           Sofia, Bucharest, Berlin, London               Romania -> Bucharest
+                                                          Germany -> Berlin
+                                                          England -> London
+
+    Input: Bulgaria, Germany, France              Output: Bulgaria -> Varna
+           Varna, Frankfurt, Paris                        Germany -> Frankfurt
+                                                          France -> Paris
+
 4. Phonebook
 Write a program that receives info from the console about people and their phone numbers.
 Each entry should have a name and a number (both strings) separated by a "-". If you receive a name that already exists in the phonebook, update its number.
