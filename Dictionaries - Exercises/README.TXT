@@ -116,6 +116,27 @@ Output
 "{product_name} -> {total_price}"
     • Format the total price to the 2nd digit after the decimal separator.
 
+    Examples:
+    
+    Input: Beer 2.20 100          Output: Beer -> 220.00
+           IceTea 1.50 50                 IceTea -> 75.00
+           NukaCola 3.30 80               NukaCola -> 264.00
+           Water 1.00 500                 Water -> 500.00
+           buy
+
+    Input: Beer 2.40 350          Output: Beer -> 660.00
+           Water 1.25 200                 Water -> 250.00
+           IceTea 5.20 100                IceTea -> 110.00
+           Beer 1.20 200
+           IceTea 0.50 120
+           buy
+
+    Input: CesarSalad 10.20 25    Output: CesarSalad -> 255.00
+           SuperEnergy 0.80 400           SuperEnergy -> 320.00
+           Beer 1.35 350                  Beer -> 472.50
+           IceCream 1.50 25               IceCream -> 37.50
+           buy
+
 7. SoftUni Parking
 SoftUni just got a new fancy parking lot. It even has online parking validation, except the online service doesn't work.
 It can only receive users' data, but it doesn't know what to do with it. Good thing you're on the dev team and know how to fix it, right?
