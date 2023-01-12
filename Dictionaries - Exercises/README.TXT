@@ -203,6 +203,7 @@ Output
 "-- {student_name}"
 
     Examples:
+
     Input: Programming Fundamentals : John Smith           Output: Programming Fundamentals: 2
            Programming Fundamentals : Linda Johnson                -- John Smith
            JS Core : Will Wilson                                   -- Linda Johnson
@@ -264,6 +265,23 @@ Print the company name and each employee's id in the following format:
 -- {id2}
 …
 -- {idN}"
+
+    Examples:
+    Input: SoftUni -> AA12345       Output: SoftUni
+           SoftUni -> BB12345               -- AA12345
+           Microsoft -> CC12345             -- BB12345
+           HP -> BB12345                    Microsoft
+           End                              -- CC12345
+                                            HP
+                                            -- BB12345
+
+    Input: SoftUni -> AA12345       Output: SoftUni
+           SoftUni -> CC12344               -- AA12345
+           Lenovo -> XX23456                -- CC12344
+           SoftUni -> AA12345               Lenovo
+           Movement -> DD11111              -- XX23456
+           End                              Movement
+                                            -- DD11111
 
 11. Force Book
 The force users struggle to remember which side is the different force users from because they switch them too often. So you are tasked to create a web application to manage their profiles.
