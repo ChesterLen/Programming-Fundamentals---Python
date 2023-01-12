@@ -11,22 +11,22 @@ Print all the occurrences in the following format:
             e -> 1
             x -> 1
 
-    2. A Miner Task
+2. A Miner Task
 You will be given a sequence of strings, each on a new line until you receive the "stop" command. Every odd line on the console represents a resource (e.g., Gold, Silver, Copper, and so on) and every even - quantity. Your task is to collect the resources and print them each on a new line.
 Print the resources and their quantities in the following format:
 "{resource} -> {quantity}"
 
-    3. Capitals
+3. Capitals
 Using a dictionary comprehension, write a program that receives country names on the first line, separated by comma and space ", ", and their corresponding capital cities on the second line (again separated by comma and space ", ").
 Print each country with their capital on a separate line in the following format: "{country} -> {capital}".
 
-    4. Phonebook
+4. Phonebook
 Write a program that receives info from the console about people and their phone numbers.
 Each entry should have a name and a number (both strings) separated by a "-". If you receive a name that already exists in the phonebook, update its number.
 After filling the phonebook, you will receive a number – N. Your program should be able to perform a search of contact by name and print its details in the format: "{name} -> {number}".
 In case the contact isn't found, print: "Contact {name} does not exist."
 
-    5. Legendary Farming
+5. Legendary Farming
 You are playing a game, and your goal is to win a legendary item - any legendary item will be good enough. However, it's a tedious process, and it requires quite a bit of farming. The possible items are:
     • "Shadowmourne" - requires 250 Shards
     • "Valanyr" - requires 250 Fragments
@@ -41,7 +41,7 @@ fragments: {number_of_fragments}
 motes: {number_of_motes}"
 Finally, print the collected junk items in the order of appearance.
 
-    6. Orders
+6. Orders
 Write a program that keeps the information about products and their prices. Each product has a name, a price, and a quantity:
     • If the product doesn't exist yet, add it with its starting quantity.
     • If you receive a product, which already exists, increases its quantity by the input quantity and if its price is different, replace the price as well.
@@ -54,7 +54,7 @@ Output
 "{product_name} -> {total_price}"
     • Format the total price to the 2nd digit after the decimal separator.
 
-    7. SoftUni Parking
+7. SoftUni Parking
 SoftUni just got a new fancy parking lot. It even has online parking validation, except the online service doesn't work.
 It can only receive users' data, but it doesn't know what to do with it. Good thing you're on the dev team and know how to fix it, right?
 Write a program, which validates a parking place - users can register to enter the park and unregister to leave.
@@ -77,7 +77,7 @@ Input
         ◦ Register: "register {username} {license_plate_number}"
         ◦ Unregister: "unregister {username}"
 
-    8. Courses
+8. Courses
 Write a program that keeps the information about courses. Each course has a name and registered students.
 You will be receiving a course name and a student name until you receive the command "end".
 You should register each user into the corresponding course. If the given course does not exist, add it.
@@ -92,7 +92,7 @@ Output
     • Print the information about each student in the following format:
 "-- {student_name}"
 
-    9.  Student Academy
+9.  Student Academy
 Write a program that keeps the information about students and their grades.
 On the first line, you will receive an integer number representing the next pair of rows. On the next lines, you will be receiving each student's name and their grade.
 Keep track of all grades for each student and keep only the students with an average grade higher than or equal to 4.50.
@@ -100,7 +100,7 @@ Print the final dictionary with students and their average grade in the followin
 "{name} -> {averageGrade}"
 Format the average grade to the 2nd decimal place.
 
-    10. Company Users
+10. Company Users
 Write a program that keeps the information about companies and their employees.
 You will be receiving company names and an employees' id until you receive the command "End" command. Add each employee to the given company. Keep in mind that a company cannot have two employees with the same id.
 Print the company name and each employee's id in the following format:
@@ -110,7 +110,7 @@ Print the company name and each employee's id in the following format:
 …
 -- {idN}"
 
-    11. Force Book
+11. Force Book
 The force users struggle to remember which side is the different force users from because they switch them too often. So you are tasked to create a web application to manage their profiles.
 You should store information for every unique force user registered in the application.
 You will receive several input lines in one of the following formats:
@@ -129,7 +129,7 @@ If you receive a "force_user -> force_side":
 You should end your program when you receive the command "Lumpawaroo". At that point, you should print each force side. For each side, print the force users.
 In case there are no force users on a side, you shouldn't print the side information.
 
-    12. SoftUni Exam Results
+12. SoftUni Exam Results
 Judge statistics on the last Programing Fundamentals exam were not working correctly, so you have the task of taking all the submissions and analyzing them properly.
 You should collect all the submissions and print the final results and statistics about each language in which the participants submitted their solutions.
 You will be receiving lines in the following format: "{username}-{language}-{points}" until you receive "exam finished". You should store each username and their submissions and points.
