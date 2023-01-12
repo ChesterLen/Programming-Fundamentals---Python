@@ -16,6 +16,22 @@ You will be given a sequence of strings, each on a new line until you receive th
 Print the resources and their quantities in the following format:
 "{resource} -> {quantity}"
 
+    Examples:
+    
+    Input: Gold               Input: gold
+           155                       155
+           Silver                    silver 
+           10                        10
+           Copper                    copper  
+           17                        17
+           stop                      gold   
+                                     15
+    Output: Gold -> 155              stop
+            Silver -> 10
+            Copper -> 17      Output: gold -> 170
+                                      silver -> 10
+                                      copper -> 17
+
 3. Capitals
 Using a dictionary comprehension, write a program that receives country names on the first line, separated by comma and space ", ", and their corresponding capital cities on the second line (again separated by comma and space ", ").
 Print each country with their capital on a separate line in the following format: "{country} -> {capital}".
