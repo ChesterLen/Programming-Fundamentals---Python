@@ -24,6 +24,18 @@ Write functions named:
 Wrap the two functions in a function named add_and_subtract() which will receive the three numbers as parameters.
 Print the result of the subtract() function on the console.
 
+    Input: 23     Output: 19
+           6
+           10
+
+    Input: 1      Output: -12
+           17
+           30
+
+    Input: 42     Output: 0
+           58
+           100
+
     3. Characters in Range
 Write a function that receives two characters and returns a single string with all the characters in between them (according to the ASCII code), separated by a single space.
 Print the result on the console.
