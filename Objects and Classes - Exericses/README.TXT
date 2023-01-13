@@ -158,12 +158,12 @@ There should also be a class attribute __watched_movies which will keep track of
     • watch() - change the watched attribute to True and increase the total watched movies class attribute (if the movie is not already watched)
     • __repr__() - returns "Movie name: {name}; Movie director: {director}. Total watched movies: {__watched_movies}"
 
-    Test Code: first_movie = Movie("Inception", "Christopher Nolan")                                      Output: Movie name: Inception; Movie director: Me. Total watched movies: 2
-               second_movie = Movie("The Matrix", second_movie = Movie("The Matrix", "The Wachowskis")            Movie name: The Matrix; Movie director: The Wachowskis. Total watched movies: 2
-               third_movie = Movie("The Predator", "Shane Black")                                                 Movie name: My Movie; Movie director: Shane Black. Total watched movies: 2
-               first_movie.change_director("Me")
-               third_movie.change_name("My Movie")
-               first_movie.watch()
+    Test Code: first_movie = Movie("Inception", "Christopher Nolan")                                      Output: Movie name: Inception; Movie director: Me.
+               second_movie = Movie("The Matrix", second_movie = Movie("The Matrix", "The Wachowskis")            Total watched movies: 2
+               third_movie = Movie("The Predator", "Shane Black")                                                 Movie name: The Matrix; Movie director: The Wachowskis.
+               first_movie.change_director("Me")                                                                  Total watched movies: 2
+               third_movie.change_name("My Movie")                                                                Movie name: My Movie; Movie director: Shane Black.
+               first_movie.watch()                                                                                Total watched movies: 2
                third_movie.watch()
                first_movie.watch()
                print(first_movie)
