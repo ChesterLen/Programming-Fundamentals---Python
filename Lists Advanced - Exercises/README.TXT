@@ -29,6 +29,14 @@ Note: there will be no case in which the first number will become greater than 9
 Using comprehension, write a program that receives some text, separated by space, and take only those words whose length is even.
 Print each word on a new line.
 
+    Examples:
+
+    Input: kiwi orange banana apple    Output: kiwi
+                                               orange
+                                               banana
+
+    Input: pizza cake pasta chips      Output: cake
+
     4. Number Classification
 Using a list comprehension, write a program that receives numbers, separated by comma and space ", ", and prints all the positive, negative, even, and odd numbers on separate lines as shown below.
 Note: Zero is counted for a positive number
