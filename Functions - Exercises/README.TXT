@@ -86,6 +86,16 @@ The output should be as follows:
     • On the second line: "The maximum number is {maximum number}"
     • On the third line: "The sum number is: {sum of all numbers}"
 
+    Examples:
+
+    Input: 2 4 6                 Output: The minimum number is 2
+                                         The maximum number is 6
+                                         The sum number is: 12
+
+    Input: 12 52 11 53 2 8 45    Output: The minimum number is 2
+                                         The maximum number is 53
+                                         The sum number is: 183
+                    
     8. Palindrome Integers
 A palindrome is a number that reads the same backward as forward, such as 323 or 1001. Write a function that receives a list of positive integers, separated by comma and space ", ".
 The function should check if each integer is a palindrome - True or False. Print the result.
