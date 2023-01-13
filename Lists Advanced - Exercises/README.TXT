@@ -2,6 +2,14 @@
 You will be given two sequences of strings, separated by ", ".
 Print a new list containing only the strings from the first input line, which are substrings of any string in the second input line.
 
+    Examples:
+
+    Input: arp, live, strong                         Output: ['arp', 'live', 'strong']
+           lively, alive, harp, sharp, armstrong
+
+    Input: tarp, mice, bull                          Output: []
+           lively, alive, harp, sharp, armstrong
+
     2. Next Version
 You are fed up with changing the version of your software manually. Instead, you will create a little script that will make it for you.
 You will be given a string representing the version of your software in the format: "{n1}.{n2}.{n3}". Your task is to print the next version.
