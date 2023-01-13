@@ -17,6 +17,14 @@ For example, if the current version is "1.3.4", the next version will be "1.3.5"
 The only rule is that the numbers cannot be greater than 9. If it happens, set the current number to 0 and increase the previous number. For more clarification, see the examples below.
 Note: there will be no case in which the first number will become greater than 9.
 
+    Examples:
+
+    Input: 1.2.3    Output: 1.2.4
+
+    Input: 1.3.9    Output: 1.4.0
+
+    Input: 3.9.9    Output: 4.0.0
+
     3. Word Filter
 Using comprehension, write a program that receives some text, separated by space, and take only those words whose length is even.
 Print each word on a new line.
