@@ -41,6 +41,18 @@ Print each word on a new line.
 Using a list comprehension, write a program that receives numbers, separated by comma and space ", ", and prints all the positive, negative, even, and odd numbers on separate lines as shown below.
 Note: Zero is counted for a positive number
 
+    Examples:
+
+    Input: 1, -2, 0, 5, 3, 4, -100, -20, 12, 19, -33     Output: Positive: 1, 0, 5, 3, 4, 12, 19
+                                                                           Negative: -2, -100, -20, -33
+                                                                           Even: -2, 0, 4, -100, -20, 12
+                                                                           Odd: 1, 5, 3, 19, -33
+
+    Input: 1, 2, 53, 2, 21                               Output: Positive: 1, 2, 53, 2, 21
+                                                                 Negative:
+                                                                 Even: 2, 2
+                                                                 Odd: 1, 53, 21
+
     5. Office Chairs
 You are a facility manager at a large business center. One of your responsibilities is to check if each conference room in the center has enough chairs for the visitors.
 On the first line, you will be given an integer n representing the number of rooms in the business center. On the following n lines for each room, you will receive information about the chairs in the room and the number of visitors.
