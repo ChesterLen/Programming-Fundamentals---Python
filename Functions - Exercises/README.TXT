@@ -123,6 +123,16 @@ Otherwise, for every unfulfilled rule, print a message:
     • "Password must consist only of letters and digits"
     • "Password must have at least 2 digits"
 
+    Examples:
+
+    Input: login          Output: Password must be between 6 and 10 characters
+                                  Password must have at least 2 digits
+
+    Input: MyPass123      Output: Password is valid
+
+    Input: Pa$s$s         Output: Password must consist only of letters and digits
+                                  Password must have at least 2 digits
+
     10. Perfect Number
 A perfect number is a positive integer that is equal to the sum of its proper positive divisors.
 That is the sum of its positive divisors, excluding the number itself (also known as its aliquot sum).
