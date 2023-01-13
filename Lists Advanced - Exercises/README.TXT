@@ -61,6 +61,19 @@ Keep track of the free chairs:
     • If there are not enough chairs in a specific room, print the following message: "{needed_chairs_in_room} more chairs needed in room {number_of_room}". The rooms start from 1.
     • Otherwise, print: "Game On, {total_free_chairs} free chairs left".
 
+    Examples:
+
+    Input: 4            Output: Game On, 4 free chairs left
+           XXXX 4
+           XX 1
+           XXXXXX 3
+           XXX 3
+
+    Input: 3             Output: 1 more chairs needed in room 2
+           XXXXXXX 5             2 more chairs needed in room 3
+           XXXX 5
+           XXXXXX 8
+
     6. Electron Distribution
 You are a mad scientist, and you have decided to play with electron distribution among atom shells. The basic idea of electron distribution is that electrons should fill a shell until it holds the maximum number of electrons.
 You will receive a single integer - the number of electrons. Your task is to fill shells until there are no more electrons left. The rules for electron distribution are as follows:
