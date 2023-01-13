@@ -2,6 +2,20 @@
 Write a function that receives three integer numbers and returns the smallest.
 Print the result on the console. Use an appropriate name for the function.
 
+    Examples:
+
+    Input: 2      Output: 2
+           5
+           3
+
+    Input: 600    Output: 123
+           342
+           123
+
+    Input: 25     Output: 4
+           21
+           4
+
     2. Add and Subtract
 You will receive three integer numbers.
 Write functions named:
