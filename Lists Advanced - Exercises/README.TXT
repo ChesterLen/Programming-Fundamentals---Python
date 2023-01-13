@@ -82,6 +82,12 @@ You will receive a single integer - the number of electrons. Your task is to fil
     • If the electrons are enough to fill the first shell, the left unoccupied electrons should fill the following shell and so on.
 In the end, print a list with the filled shells.
 
+    Examples:
+
+    Input: 10    Output: [2, 8]
+
+    Input: 44    Output: [2, 8, 18, 16]
+
     7. Group of 10's
 Write a program that receives a sequence of numbers (a string containing integers separated by ", ") and prints the numbers sorted into lists of 10's in the format "Group of {group}'s: {list_of_numbers}".
 Examples:
