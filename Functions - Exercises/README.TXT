@@ -100,6 +100,18 @@ The output should be as follows:
 A palindrome is a number that reads the same backward as forward, such as 323 or 1001. Write a function that receives a list of positive integers, separated by comma and space ", ".
 The function should check if each integer is a palindrome - True or False. Print the result.
 
+    Examples:
+
+    Input: 123, 323, 421, 121    Output: False
+                                         True
+                                         False
+                                         True
+
+    Input: 32, 2, 232, 1010      Output: False
+                                         True
+                                         True
+                                         False
+
     9. Password Validator
 Write a function that checks if a given password is valid. Password validations are:
     • It should be 6 - 10 (inclusive) characters long
