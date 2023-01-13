@@ -55,6 +55,12 @@ The result should be returned as a single string in the format:
 "Odd sum = {sum_of_odd_digits}, Even sum = {sum_of_even_digits}"
 Print the result of the function on the console.
 
+    Examples:
+
+    Input: 1000435              Output: Odd sum = 9, Even sum = 4
+
+    Input: 3495892137259234     Output: Odd sum = 54, Even sum = 22
+
     5. Even Numbers
 Write a program that receives a sequence of numbers (integers) separated by a single space. It should print a list of only the even numbers. Use filter().
 
