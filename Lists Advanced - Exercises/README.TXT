@@ -94,10 +94,29 @@ Examples:
     • The numbers 2, 8, 4, and 10 fall into the group of 10's.
     • The numbers 13, 19, 14, and 15 fall into the group of 20's.
 
+    Examples:
+
+    Input: 8, 12, 38, 3, 17, 19, 25, 35, 50     Output: Group of 10's: [8, 3]
+                                                        Group of 20's: [12, 17, 19]
+                                                        Group of 30's: [25]
+                                                        Group of 40's: [38, 35]
+                                                        Group of 50's: [50]
+
+    Input: 1, 3, 3, 4, 34, 35, 25, 21, 33       Output: Group of 10's: [1, 3, 3, 4]
+                                                        Group of 20's: []
+                                                        Group of 30's: [25, 21]
+                                                        Group of 40's: [34, 35, 33] 
+
     8. Decipher This!
 You are given a secret message you should decipher. To do that, you need to know that in each word:
     • the second and the last letter are switched (e.g., Holle means Hello)
     • the first letter is replaced by its character code (e.g., 72 means H)
+
+    Examples:
+
+    Input: 72olle 103doo 100ya    Output: Hello good day
+
+    Input: 82yade 115te 103o      Output: Ready set go
 
     9. Anonymous Threat
 Anonymous has created a hyper cyber virus, which steals data from the CIA. The virus is known for its innovative and unbelievably clever merging and dividing data into partitions.
@@ -114,6 +133,19 @@ If the string cannot be exactly divided into the given partitions, make all part
 Example: {abcd, efgh, ijkl} -> divide 0 3 -> {a, b, cd, efgh, ijkl}
 The input ends when you receive the command "3:1". At that point, you must print the resulting elements, joined by a space.
 
+    Examples:
+
+    Input: Ivo Johny Tony Bony Mony           Output: IvoJohnyTonyBonyMony
+           merge 0 3
+           merge 3 4
+           merge 0 3
+           3:1
+
+    Input: abcd efgh ijkl mnop qrst uvwx yz   Output: abcd efgh ijkl mnop qr st uv wx yz
+           merge 4 10
+           divide 4 5
+           3:1
+
     10. Pokemon Don't Go
 Ely likes to play Pokemon Go a lot. But Pokemon Go bankrupted… So the developers made Pokemon Don't Go out of depression. And so Ely now plays Pokemon Don't Go.
 In Pokemon Don't Go, when you walk to a certain pokemon, those closest to you naturally get further, and those further from you, get closer.
@@ -125,3 +157,19 @@ If the given index is less than 0, remove the first element of the sequence, and
 If the given index is greater than the last index of the sequence, remove the last element from the sequence, and copy the first element to its place.
 The increasing and decreasing elements should also be done in these cases. The element whose value you should use is the removed element.
 The program ends when the sequence has no elements (there are no pokemon left for Ely to catch).
+
+    Examples:
+
+    Input: 4 5 3        Output: 14
+           1
+           1
+           0
+
+    Input: 5 10 6 3 5   Output: 51
+           2
+           4
+           1
+           1
+           3
+           0
+           0
