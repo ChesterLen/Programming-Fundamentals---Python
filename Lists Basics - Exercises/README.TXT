@@ -3,10 +3,24 @@
 Write a program that receives a single string containing positive and negative numbers separated by a single space.
 Print a list containing the opposite of each number.
 
+    Examples:
+
+    Input: 1 2 -3 -3 5       Output: [-1, -2, 3, 3, -5]
+
+    Input: -4 0 2 57 -101    Output: [4, 0, -2, -57, 101]
+
     2. Multiples List
 Write a program that receives two numbers (factor and count).
 It should create a list with a length of the given count that contains only integer numbers, which are multiples of the given factor.
 The numbers should be only positive, and they should be arranged in ascending order, starting from the value of the factor.
+
+    Examples:
+
+    Input: 2    Output: [2, 4, 6, 8, 10]
+           5
+
+    Input: 1    Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+           10
 
     3. Football Cards
 Most football fans love it for the goals and excitement.
@@ -20,6 +34,13 @@ You should print the count of remaining players on each team at the end of the g
 If the referee terminated the game, print an additional line: "Game was terminated".
 Note for the random tests: If a player who has already been sent off receives another card - ignore it.
 
+    Examples:
+
+    Input: A-1 A-5 A-10 B-2                Output: Team A - 8; Team B - 10
+
+    Input: A-1 A-5 A-10 B-2 A-10 A-7 A-3   Output: Team A - 6; Team B - 10
+                                                   Game was terminated
+
     4. Number Beggars
 You will receive 2 lines of input. On the first line, you will receive a single string of integers, separated by a comma and a space ", ".
 On the second line, you will receive a count of beggars. Your job is to print a list with the sum of what each beggar brings home, assuming they all take regular turns, from the first to the last number in the list.
@@ -27,6 +48,17 @@ For example: [1, 2, 3, 4, 5] for 2 beggars will return a result of 9 and 6, as t
 The same list with 3 beggars would produce a better outcome for the second beggar: 5, 7 and 3, as they will respectively take [1, 4], [2, 5], and [3].
 Also, note that not all beggars have to take the same amount of "offers", meaning that the length of the list is not necessarily a multiple of n.
 The list length could be even shorter - i.e., the last beggars will take nothing (0).
+
+    Examples:
+
+    Input: 1, 2, 3, 4, 5       Output: [9, 6]
+           2
+
+    Input: 3, 4, 5, 1, 29, 4   Output: [3, 4, 5, 1, 29, 4]
+           6
+
+    Input: 100, 94, 24, 99     Output: [100, 94, 24, 99, 0]
+           5
 
     5. Faro Shuffle
 A faro shuffle is a method for shuffling a deck of cards, in which the deck is split exactly in half.
@@ -36,10 +68,26 @@ Write a program that receives a single string (cards separated by space) and on 
 Print the state of the deck after the shuffle.
 Note: The length of the deck of cards will always be an even number.
 
+    Examples:
+
+    Input: a b c d e f g h      Output: ['a', 'c', 'e', 'g', 'b', 'd', 'f', 'h']
+           5
+
+    Input: one two three four   Output: ['one', 'three', 'two', 'four']
+           3
+
     6. Survival of the Biggest
 Write a program that receives a list of integer numbers (separated by a single space) and a number n.
 The number n represents the count of numbers to remove from the list.
 You should remove the smallest ones, and then, you should print all the numbers that are left in the list, separated by a comma and a space ", ".
+
+    Examples:
+
+    Input: 10 9 8 7 6 5    Output: 10, 9, 8
+           3
+
+    Input: 1 10 2 9 3 8    Output: 10, 9, 3, 8
+           2
 
     7.  Easter Gifts
 As a good friend, you decide to buy presents for your friends.
@@ -54,6 +102,24 @@ Then you will start receiving commands until you read the "No Money" message. Th
         ◦ Replace the value of your last gift with this one.
 In the end, print the gifts on a single line, except the ones with value "None", separated by a single space in the following format:
 "{gift1} {gift2} {gift3} … {giftn}"
+
+    Examples:
+
+    Input: Eggs StuffedAnimal Cozonac Sweets     Output: StuffedAnimal Spoon Sweets EasterBunny 
+           EasterBunny Eggs Clothes                      ChocolateEgg
+           OutOfStock Eggs
+           Required Spoon 2
+           JustInCase ChocolateEgg
+           No Money
+
+    Input: Sweets Cozonac Clothes Flowers Wine    Output: Sweets Cozonac Chocolate Flowers Wine
+           Clothes Eggs Clothes                           Eggs Hat
+           Required Paper 8
+           OutOfStock Clothes
+           Required Chocolate 2
+           JustInCase Hat
+           OutOfStock Cable
+           No Money
 
     8.  Seize the Fire
 The group of adventurists has gone on their first task. Now they should walk through fire - literally. They should use all the water they have left. Your task is to help them survive.
@@ -81,3 +147,20 @@ Skip it and try the next one if you do not have enough water to put out a given 
 The effort should be formatted to the second decimal place.
 In the end, print the total fire you have put out from all the cells in the following format:
 "Total Fire: {total_fire}"
+
+    Examples:
+
+    Input: High = 89#Low = 28#Medium = 77#Low = 23                           Output: Cells:
+           1250                                                                       - 89
+                                                                                      - 28
+                                                                                      - 77
+                                                                                      - 23
+                                                                                     Effort: 54.25
+                                                                                     Total Fire: 217
+
+    Input: High = 150#Low = 55#Medium = 86#Low = 40#High = 110#Medium = 77    Output: Cells:
+                                                                                       - 40
+                                                                                       - 110
+                                                                                      Effort: 37.50
+                                                                                      Total Fire:
+                                                                                      150
